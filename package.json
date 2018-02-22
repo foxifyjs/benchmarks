@@ -28,8 +28,8 @@
     "foxify-benchmarks-compare.js"
   ],
   "scripts": {
-    "start": "node benchmark.js",
-    "compare": "node benchmark.js compare",
+    "start": "node foxify-benchmarks.js",
+    "compare": "node foxify-benchmarks.js compare",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -43,7 +43,7 @@
     "connect": "^3.6.6",
     "express": "^4.16.2",
     "fastify": "^1.0.0-rc.2",
-    "foxify": "^0.3.2",
+    "foxify": "^0.4.0",
     "hapi": "^17.2.0",
     "inquirer": "^5.1.0",
     "koa": "^2.5.0",
