@@ -1,6 +1,6 @@
 {
   "name": "foxify-benchmarks",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "web framework foxify benchmarks",
   "author": "Foxify",
   "contributors": [
@@ -19,13 +19,13 @@
     "url": "https://github.com/foxifyjs/benchmarks/issues"
   },
   "homepage": "https://github.com/foxifyjs/benchmarks#readme",
-  "main": "benchmark.js",
-  "bin": "benchmark.js",
+  "main": "foxify-benchmarks.js",
+  "bin": "foxify-benchmarks.js",
   "files": [
     "benchmarks",
     "lib",
-    "benchmark-bench.js",
-    "benchmark-compare.js"
+    "foxify-benchmarks-bench.js",
+    "foxify-benchmarks-compare.js"
   ],
   "scripts": {
     "start": "node benchmark.js",

@@ -18,6 +18,9 @@ function select (callback) {
           checked: true
         },
         {
+          name: 'bare'
+        },
+        {
           name: 'fastify'
         },
         {
