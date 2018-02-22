@@ -4,7 +4,7 @@ web framework foxify benchmarks
 
 # TL;DR
 
-* [Foxify](https://github.com/foxifyjs/foxify) is, fast, easy to use & typescript ready web framework for Node.j
+* [Foxify](https://github.com/foxifyjs/foxify) is, fast, easy to use & typescript ready web framework for Node.js
 * This package shows how fast it is comparatively.
 
 # Installing
