@@ -1,0 +1,61 @@
+{
+  "name": "foxify-benchmarks",
+  "version": "0.1.0",
+  "description": "web framework foxify benchmarks",
+  "author": "Foxify",
+  "contributors": [
+    "Ardalan Amini <ardalanamini22@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "foxify",
+    "benchmarks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foxifyjs/benchmarks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/foxifyjs/benchmarks/issues"
+  },
+  "homepage": "https://github.com/foxifyjs/benchmarks#readme",
+  "main": "benchmark.js",
+  "bin": "benchmark.js",
+  "files": [
+    "benchmarks",
+    "lib",
+    "benchmark-bench.js",
+    "benchmark-compare.js"
+  ],
+  "scripts": {
+    "start": "node benchmark.js",
+    "compare": "node benchmark.js compare",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "dependencies": {
+    "autocannon": "^2.0.0",
+    "autocannon-compare": "^0.3.0",
+    "chalk": "^2.3.1",
+    "commander": "^2.14.1",
+    "connect": "^3.6.6",
+    "express": "^4.16.2",
+    "fastify": "^1.0.0-rc.2",
+    "foxify": "^0.3.2",
+    "hapi": "^17.2.0",
+    "inquirer": "^5.1.0",
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "micro": "^9.1.0",
+    "microrouter": "^3.0.0",
+    "ora": "^2.0.0",
+    "restify": "^6.3.4",
+    "router": "^1.3.2",
+    "take-five": "^1.3.4",
+    "total.js": "^2.9.30",
+    "trek-engine": "^1.0.5",
+    "trek-router": "^1.2.0"
+  }
+}
