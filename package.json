@@ -1,6 +1,6 @@
 {
   "name": "foxify-benchmarks",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "web framework foxify benchmarks",
   "author": "Foxify",
   "contributors": [
@@ -43,7 +43,7 @@
     "connect": "^3.6.6",
     "express": "^4.16.2",
     "fastify": "^1.0.0-rc.2",
-    "foxify": "^0.4.0",
+    "foxify": "^0.5.2",
     "hapi": "^17.2.0",
     "inquirer": "^5.1.0",
     "koa": "^2.5.0",

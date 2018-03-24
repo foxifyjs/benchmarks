@@ -18,6 +18,9 @@ function select (callback) {
           checked: true
         },
         {
+          name: 'foxify-clustered'
+        },
+        {
           name: 'bare'
         },
         {
@@ -134,6 +137,7 @@ inquirer.prompt([
       'total.js',
       'fastify',
       'foxify',
+      'foxify-clustered',
       'micro',
       'micro-router',
       'trek-engine',

@@ -6,8 +6,6 @@ const app = new Foxify()
 
 app.disable('x-powered-by')
 
-app.set('workers', 1)
-
 app.get('/', (req, res) => {
   res.json({hello: 'world'})
 })

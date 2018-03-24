@@ -22,6 +22,7 @@ let choices = [
   'total.js',
   'fastify',
   'foxify',
+  'foxify-clustered',
   'micro',
   'micro-router',
   'trek-engine',
