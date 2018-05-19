@@ -5,6 +5,7 @@ const Foxify = require('foxify')
 const app = new Foxify()
 
 app.disable('x-powered-by')
+app.disable('content-length')
 
 app.set('workers', 1)
 
