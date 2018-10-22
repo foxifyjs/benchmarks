@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-'use strict'
+"use strict"
 
-const program = require('commander')
+const program = require("commander")
 
 program
-  .command('bench', 'bench one or all packages', { isDefault: true })
-  .command('compare', 'compare twice package')
-  .parse(process.argv)
+  .command("bench", "Benchmark one, multiple or all modules.", { isDefault: true })
+  .command("compare", "Compare results by module.")
+  .parse(process.argv);

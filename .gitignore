@@ -58,3 +58,5 @@ typings/
 .env
 
 results/
+
+benchmarks/tmp/
